@@ -1,9 +1,9 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/manse_calendar.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/api/manse_calendar", "dest": "api/manse_calendar.py" }
-  ]
-}
+    {
+      "version": 2,
+      "builds": [
+        { "src": "api/manse_calendar.py", "use": "@vercel/python" }
+      ],
+      "routes": [
+        { "src": "/api/manse_calendar", "dest": "api/manse_calendar.py" }
+      ]
+    }
