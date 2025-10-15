@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/**/*.py": { "runtime": "python3.11" }
-  }
+  "builds": [
+    { "src": "api/manse_calendar.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/manse_calendar", "dest": "api/manse_calendar.py" }
+  ]
 }
