@@ -1,0 +1,5 @@
+{
+  "functions": {
+    "api/manse_calendar.py": { "runtime": "python3.11" }
+  }
+}
